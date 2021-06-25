@@ -1,0 +1,15 @@
+main {
+    display: flex;
+    flex-basis: 100%;
+}
+.years, .months, .days, .hours, .minutes, .seconds, h4>p {
+    border: 1px solid black;
+    background: black;
+    padding: 18px;
+    margin: 4px;
+    color: white;
+    text-align: center;
+}
+.countdown, .countdown_transition {
+    display: flex;
+}
