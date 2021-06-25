@@ -1,0 +1,22 @@
+* {
+    background-color: rgb(122, 244, 253);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+}
+.container {
+    display: flex;
+}
+.flexContainer {
+    padding: 20px;
+}
+.day, .hour, .minute, .second, h4>p {
+    border: 1px solid black;
+    background: black;
+    padding: 18px;
+    margin: 4px;
+    color: white;
+    text-align: center;
+}
+.conCountdown {
+    display: flex;
+}
